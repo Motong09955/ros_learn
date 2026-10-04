@@ -33,7 +33,7 @@ class ServiceClient01 : public rclcpp::Node
             client_->async_send_request(
                 request,std::bind(&ServiceClient01::result_callback_,this,
                         std::placeholders::_1)
-            )
+            );
         }
     
     private:
