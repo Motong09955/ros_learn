@@ -8,6 +8,25 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
+
+add_executable(service_server_01 src/service_server_01.cpp)
+ament_target_dependencies(service_server_01 rclcpp example_interfaces)
+
+add_executable(service_client_01 src/service_client_01.cpp)
+ament_target_dependencies(service_client_01 rclcpp example_interfaces)
+
+install(
+  TARGETS
+  service_server_01
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  TARGETS
+  service_client_01
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

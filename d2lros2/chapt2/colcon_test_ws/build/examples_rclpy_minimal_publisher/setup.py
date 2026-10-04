@@ -1,1 +1,0 @@
-/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/topics/minimal_publisher/setup.py

@@ -1,0 +1,55 @@
+# ========== 编辑器 / IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# ========== 操作系统 ==========
+.DS_Store
+Thumbs.db
+
+# ========== ROS2 / colcon 工作空间 ==========
+# colcon build 产生的三个目录，全部由 src/ 重新生成，不入库
+build/
+install/
+log/
+COLCON_IGNORE
+
+# ========== CMake 生成物 ==========
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+
+# ========== 编译产物 ==========
+*.o
+*.a
+*.so
+*.so.*
+*.d
+*.out
+*.exe
+*.bin
+/d2lros2/chapt2/basic/first_node
+
+# ========== ROS 数据与日志 ==========
+*.bag
+*.db3
+*.mcap
+*.log
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+.pytest_cache/
+.coverage
+venv/
+.venv/
