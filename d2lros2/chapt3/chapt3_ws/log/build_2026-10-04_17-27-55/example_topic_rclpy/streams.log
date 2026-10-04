@@ -1,0 +1,41 @@
+[0.504s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclpy': PYTHONPATH=/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_topic_rclpy build --build-base /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build install --record /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log --install-scripts $base/lib/example_topic_rclpy --single-version-externally-managed install_data
+[0.653s] running egg_info
+[0.653s] creating ../../build/example_topic_rclpy/example_topic_rclpy.egg-info
+[0.653s] writing ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/PKG-INFO
+[0.653s] writing dependency_links to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/dependency_links.txt
+[0.653s] writing entry points to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/entry_points.txt
+[0.654s] writing requirements to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/requires.txt
+[0.654s] writing top-level names to ../../build/example_topic_rclpy/example_topic_rclpy.egg-info/top_level.txt
+[0.654s] writing manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'
+[0.655s] reading manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'
+[0.655s] writing manifest file '../../build/example_topic_rclpy/example_topic_rclpy.egg-info/SOURCES.txt'
+[0.656s] running build
+[0.656s] running build_py
+[0.656s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build
+[0.656s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib
+[0.656s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[0.656s] copying example_topic_rclpy/__init__.py -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[0.656s] copying example_topic_rclpy/topic_subscribe_02.py -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[0.656s] copying example_topic_rclpy/topic_publisher_02.py -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy
+[0.656s] running install
+[0.657s] running install_lib
+[0.657s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[0.657s] copying /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/__init__.py -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[0.657s] copying /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/topic_subscribe_02.py -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[0.657s] copying /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build/lib/example_topic_rclpy/topic_publisher_02.py -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy
+[0.658s] byte-compiling /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/__init__.py to __init__.cpython-310.pyc
+[0.658s] byte-compiling /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/topic_subscribe_02.py to topic_subscribe_02.cpython-310.pyc
+[0.658s] byte-compiling /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy/topic_publisher_02.py to topic_publisher_02.cpython-310.pyc
+[0.659s] running install_data
+[0.659s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index
+[0.659s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index
+[0.659s] creating /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index/packages
+[0.659s] copying resource/example_topic_rclpy -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/ament_index/resource_index/packages
+[0.659s] copying package.xml -> /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/share/example_topic_rclpy
+[0.659s] running install_egg_info
+[0.660s] Copying ../../build/example_topic_rclpy/example_topic_rclpy.egg-info to /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages/example_topic_rclpy-0.0.0-py3.10.egg-info
+[0.661s] running install_scripts
+[0.676s] Installing topic_publisher_02 script to /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/example_topic_rclpy
+[0.677s] Installing topic_subscribe_02 script to /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/example_topic_rclpy
+[0.677s] writing list of installed files to '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log'
+[0.695s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclpy' returned '0': PYTHONPATH=/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_topic_rclpy build --build-base /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/build install --record /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclpy/install.log --install-scripts $base/lib/example_topic_rclpy --single-version-externally-managed install_data
