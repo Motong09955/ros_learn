@@ -1,0 +1,6 @@
+/home/motong/ros_learn/d2lros2/chapt2/basic/build/CMakeFiles/uninstall.dir
+/home/motong/ros_learn/d2lros2/chapt2/basic/build/CMakeFiles/first_node_uninstall.dir
+/home/motong/ros_learn/d2lros2/chapt2/basic/build/CMakeFiles/first_node.dir
+/home/motong/ros_learn/d2lros2/chapt2/basic/build/CMakeFiles/test.dir
+/home/motong/ros_learn/d2lros2/chapt2/basic/build/CMakeFiles/edit_cache.dir
+/home/motong/ros_learn/d2lros2/chapt2/basic/build/CMakeFiles/rebuild_cache.dir

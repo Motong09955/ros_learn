@@ -1,0 +1,96 @@
+[0.021s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.573s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.042s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[1.118s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.129s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.150s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.312s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.320s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.522s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.580s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.673s] -- Looking for pthread.h
+[1.828s] -- Looking for pthread.h - found
+[1.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.035s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.037s] -- Found Threads: TRUE  
+[2.154s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.328s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.328s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.328s] -- Configured cppcheck include dirs: 
+[2.328s] -- Configured cppcheck exclude dirs and/or files: 
+[2.332s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.332s] -- Configured cpplint exclude dirs and/or files: 
+[2.332s] -- Added test 'lint_cmake' to check CMake code style
+[2.333s] -- Added test 'uncrustify' to check C / C++ code style
+[2.333s] -- Configured uncrustify additional arguments: 
+[2.337s] -- Added test 'xmllint' to check XML markup files
+[2.338s] -- Configuring done
+[2.392s] -- Generating done
+[2.410s] -- Build files have been written to: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher
+[2.446s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher
+[2.446s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[2.584s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.591s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.626s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[12.675s] [ 33%] [32m[1mLinking CXX executable publisher_member_function[0m
+[12.904s] [ 33%] Built target publisher_member_function
+[12.908s] [ 41%] [32m[1mLinking CXX executable publisher_lambda[0m
+[13.323s] [ 41%] Built target publisher_lambda
+[13.602s] [ 50%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[13.892s] [ 50%] Built target publisher_member_function_with_type_adapter
+[13.939s] [ 58%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[18.156s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[18.341s] [ 66%] Built target publisher_not_composable
+[18.370s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[22.217s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[22.389s] [ 83%] Built target publisher_wait_for_all_acked
+[22.418s] [ 91%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[26.258s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[26.628s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[26.656s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[26.656s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher
+[26.676s] -- Install configuration: ""
+[26.676s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[26.680s] -- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[26.680s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[26.683s] -- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[26.683s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[26.685s] -- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[26.691s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[26.691s] -- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[26.691s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[26.691s] -- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[26.691s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[26.694s] -- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[26.694s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[26.694s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[26.694s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[26.694s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[26.698s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[26.701s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[26.701s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[26.701s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[26.701s] -- Installing: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[26.704s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_publisher

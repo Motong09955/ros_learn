@@ -1,0 +1,21 @@
+[0.438s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/src/example_py': PYTHONPATH=/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/build install --record /home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.596s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[0.597s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[0.599s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.600s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.600s] running build
+[0.600s] running build_py
+[0.600s] running install
+[0.601s] running install_lib
+[0.602s] running install_data
+[0.602s] running install_egg_info
+[0.603s] removing '/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.603s] Copying ../../build/example_py/example_py.egg-info to /home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py-0.0.0-py3.10.egg-info
+[0.604s] running install_scripts
+[0.620s] Installing node_02 script to /home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/install/example_py/lib/example_py
+[0.621s] writing list of installed files to '/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/install.log'
+[0.643s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/src/example_py' returned '0': PYTHONPATH=/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/install/example_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/example_py build --build-base /home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/build install --record /home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed install_data

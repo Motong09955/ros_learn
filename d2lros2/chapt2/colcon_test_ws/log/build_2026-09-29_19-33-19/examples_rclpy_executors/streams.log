@@ -1,0 +1,57 @@
+[1.172s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/executors': PYTHONPATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build install --record /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed install_data
+[1.397s] running egg_info
+[1.397s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[1.397s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[1.397s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[1.398s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[1.398s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[1.398s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.402s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.402s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.402s] running build
+[1.402s] running build_py
+[1.402s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build
+[1.402s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib
+[1.402s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.402s] copying examples_rclpy_executors/callback_group.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.403s] copying examples_rclpy_executors/custom_callback_group.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.403s] copying examples_rclpy_executors/custom_executor.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.403s] copying examples_rclpy_executors/__init__.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.404s] copying examples_rclpy_executors/listener.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.405s] copying examples_rclpy_executors/talker.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.405s] copying examples_rclpy_executors/composed.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[1.407s] running install
+[1.407s] running install_lib
+[1.407s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.408s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.408s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.409s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.409s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.409s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.410s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.410s] copying /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[1.410s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[1.411s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[1.412s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[1.413s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[1.414s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[1.414s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[1.417s] byte-compiling /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[1.417s] running install_data
+[1.417s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index
+[1.417s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[1.417s] creating /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[1.417s] copying resource/examples_rclpy_executors -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[1.417s] copying package.xml -> /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[1.417s] running install_egg_info
+[1.419s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.5-py3.10.egg-info
+[1.419s] running install_scripts
+[1.438s] Installing callback_group script to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.438s] Installing composed script to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.439s] Installing custom_callback_group script to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.439s] Installing custom_executor script to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.440s] Installing listener script to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.440s] Installing talker script to /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.441s] writing list of installed files to '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/install.log'
+[1.462s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build install --record /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed install_data

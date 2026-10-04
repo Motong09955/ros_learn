@@ -1,0 +1,172 @@
+[0.235s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.252s] UpdateCTestConfiguration  from :/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.255s] Parse Config file:/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.256s]    Site: motong-virtual-machine
+[0.256s]    Build name: (empty)
+[0.256s]  Add coverage exclude regular expressions.
+[0.257s] Create new tag: 20260929-1153 - Experimental
+[0.257s] UpdateCTestConfiguration  from :/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.258s] Parse Config file:/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.258s] Test project /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set
+[0.259s] Constructing a list of tests
+[0.259s] Done constructing a list of tests
+[0.259s] Updating test list for fixtures
+[0.259s] Added 0 tests to meet fixture requirements
+[0.259s] Checking test dependency graph...
+[0.260s] Checking test dependency graph end
+[0.261s] test 1
+[0.261s]     Start 1: copyright
+[0.261s] 
+[0.262s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.262s] 1: Test timeout computed to be: 200
+[0.296s] 1: -- run_test.py: invoking following command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.296s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[0.694s] 1: No problems found, checked 15 files
+[0.715s] 1: -- run_test.py: return code 0
+[0.715s] 1: -- run_test.py: verify result file '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[0.717s] 1/6 Test #1: copyright ........................   Passed    0.47 sec
+[0.717s] test 2
+[0.717s]     Start 2: cppcheck
+[0.717s] 
+[0.718s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include"
+[0.718s] 2: Test timeout computed to be: 300
+[0.783s] 2: -- run_test.py: invoking following command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.783s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include
+[0.860s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.875s] 2: -- run_test.py: return code 0
+[0.876s] 2: -- run_test.py: verify result file '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[0.890s] 2/6 Test #2: cppcheck .........................   Passed    0.17 sec
+[0.890s] test 3
+[0.890s]     Start 3: cpplint
+[0.890s] 
+[0.890s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[0.890s] 3: Test timeout computed to be: 120
+[0.944s] 3: -- run_test.py: invoking following command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.944s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[1.358s] 3: Using '--root=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include' argument
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[1.358s] 3: 
+[1.358s] 3: Using '--root=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src' argument
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[1.358s] 3: 
+[1.358s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[1.359s] 3: 
+[1.359s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[1.359s] 3: 
+[1.359s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[1.359s] 3: 
+[1.359s] 3: Done processing /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[1.359s] 3: 
+[1.359s] 3: No problems found
+[1.368s] 3: -- run_test.py: return code 0
+[1.368s] 3: -- run_test.py: verify result file '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[1.376s] 3/6 Test #3: cpplint ..........................   Passed    0.49 sec
+[1.376s] test 4
+[1.376s]     Start 4: lint_cmake
+[1.376s] 
+[1.376s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[1.376s] 4: Test timeout computed to be: 60
+[1.421s] 4: -- run_test.py: invoking following command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[1.421s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[1.475s] 4: 
+[1.475s] 4: No problems found
+[1.483s] 4: -- run_test.py: return code 0
+[1.483s] 4: -- run_test.py: verify result file '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[1.490s] 4/6 Test #4: lint_cmake .......................   Passed    0.11 sec
+[1.490s] test 5
+[1.490s]     Start 5: uncrustify
+[1.491s] 
+[1.491s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[1.491s] 5: Test timeout computed to be: 60
+[1.535s] 5: -- run_test.py: invoking following command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[1.535s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[1.628s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'src/listener.cpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'src/talker.cpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[1.628s] 5: 
+[1.628s] 5: No code style divergence in file 'src/wait_set.cpp'
+[1.628s] 5: 
+[1.629s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[1.629s] 5: 
+[1.629s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[1.629s] 5: 
+[1.629s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[1.629s] 5: 
+[1.629s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[1.629s] 5: 
+[1.629s] 5: No problems found
+[1.639s] 5: -- run_test.py: return code 0
+[1.639s] 5: -- run_test.py: verify result file '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[1.646s] 5/6 Test #5: uncrustify .......................   Passed    0.16 sec
+[1.646s] test 6
+[1.646s]     Start 6: xmllint
+[1.646s] 
+[1.646s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[1.646s] 6: Test timeout computed to be: 60
+[1.696s] 6: -- run_test.py: invoking following command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[1.697s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[1.763s] 6: File 'package.xml' is invalid:
+[1.763s] 6: I/O warning : failed to load "http://download.ros.org/schema/package_format2.xsd": No such file or directory
+[1.763s] 6: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format2.xsd'.
+[1.763s] 6: WXS schema http://download.ros.org/schema/package_format2.xsd failed to compile
+[1.763s] 6: 
+[1.763s] 6: 1 files are invalid
+[1.780s] 6: -- run_test.py: return code 1
+[1.780s] 6: -- run_test.py: verify result file '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[1.782s] 6/6 Test #6: xmllint ..........................***Failed    0.14 sec
+[1.783s] 
+[1.783s] 83% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 6
+[1.783s] 
+[1.783s] Label Time Summary:
+[1.783s] copyright     =   0.47 sec*proc (1 test)
+[1.783s] cppcheck      =   0.17 sec*proc (1 test)
+[1.783s] cpplint       =   0.49 sec*proc (1 test)
+[1.783s] lint_cmake    =   0.11 sec*proc (1 test)
+[1.783s] linter        =   1.53 sec*proc (6 tests)
+[1.783s] uncrustify    =   0.16 sec*proc (1 test)
+[1.783s] xmllint       =   0.14 sec*proc (1 test)
+[1.783s] 
+[1.783s] Total Test time (real) =   1.54 sec
+[1.784s] 
+[1.784s] The following tests FAILED:
+[1.784s] 	[0;31m  6 - xmllint (Failed)[0;0m
+[1.784s] Errors while running CTest
+[1.786s] Output from these tests are in: /home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/Testing/Temporary/LastTest.log
+[1.786s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[2.287s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '8': AMENT_PREFIX_PATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/motong/ros_learn/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

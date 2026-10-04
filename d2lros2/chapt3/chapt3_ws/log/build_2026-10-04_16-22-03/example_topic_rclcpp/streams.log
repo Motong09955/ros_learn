@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target topic_subscriber_01[0m
+[0.074s] [ 50%] Built target topic_publisher_01
+[0.079s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_subscriber_01.dir/src/topic_subscriber_01.cpp.o[0m
+[0.296s] [01m[K/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscriber_01.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/String.hpp: 没有那个文件或目录
+[0.296s]     2 | #include [01;31m[K"std_msgs/msg/String.hpp"[m[K
+[0.296s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.296s] compilation terminated.
+[0.299s] gmake[2]: *** [CMakeFiles/topic_subscriber_01.dir/build.make:76：CMakeFiles/topic_subscriber_01.dir/src/topic_subscriber_01.cpp.o] 错误 1
+[0.299s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscriber_01.dir/all] 错误 2
+[0.300s] gmake: *** [Makefile:146：all] 错误 2
+[0.303s] Invoked command in '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j8 -l8

@@ -1,0 +1,5 @@
+  File "/home/motong/ros_learn/d2lros2/chapt2/chapt2_ws/install/example_py/lib/python3.10/site-packages/example_py/node_04.py", line 6
+    def __init__(self.name):
+                     ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.000571] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.008980] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.010658] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[0.010722] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', '--', '-j8', '-l8'], 'cwd': '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'motong'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/motong'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/motong/miniconda3'), ('COLCON_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/motong/miniconda3/condabin:/home/motong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/motong-virtual-machine:@/tmp/.ICE-unix/1755,unix/motong-virtual-machine:/tmp/.ICE-unix/1755'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3cf8cf15_ac6e_4609_add6_f96a1d360e2e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CYCLONEDDS_HOME', '/home/motong/unitree_ws/cyclonedds/install'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/motong/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/motong/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/motong/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/motong/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.059729] (example_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_subscriber_01\x1b[0m\n'}
+[0.073382] (example_topic_rclcpp) StdoutLine: {'line': b'[ 50%] Built target topic_publisher_01\n'}
+[0.081387] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscriber_01.dir/src/topic_subscriber_01.cpp.o\x1b[0m\n'}
+[0.099981] (-) TimerEvent: {}
+[0.200728] (-) TimerEvent: {}
+[0.301313] (-) TimerEvent: {}
+[0.401812] (-) TimerEvent: {}
+[0.502400] (-) TimerEvent: {}
+[0.602983] (-) TimerEvent: {}
+[0.703504] (-) TimerEvent: {}
+[0.804284] (-) TimerEvent: {}
+[0.904700] (-) TimerEvent: {}
+[1.005403] (-) TimerEvent: {}
+[1.106336] (-) TimerEvent: {}
+[1.207005] (-) TimerEvent: {}
+[1.307606] (-) TimerEvent: {}
+[1.408198] (-) TimerEvent: {}
+[1.508819] (-) TimerEvent: {}
+[1.609567] (-) TimerEvent: {}
+[1.710307] (-) TimerEvent: {}
+[1.811250] (-) TimerEvent: {}
+[1.912615] (-) TimerEvent: {}
+[1.967335] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscriber_01.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTopicSubscriber01::TopicSubscriber01(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.967871] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscriber_01.cpp:11:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcommand_subscriber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcount_subscribers\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.968073] (example_topic_rclcpp) StderrLine: {'line': b'   11 |             \x1b[01;31m\x1b[Kcommand_subscriber_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>\n'}
+[1.968208] (example_topic_rclcpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.968255] (example_topic_rclcpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcount_subscribers\x1b[m\x1b[K\n'}
+[2.012977] (-) TimerEvent: {}
+[2.114004] (-) TimerEvent: {}
+[2.214497] (-) TimerEvent: {}
+[2.315346] (-) TimerEvent: {}
+[2.416599] (-) TimerEvent: {}
+[2.517016] (-) TimerEvent: {}
+[2.617812] (-) TimerEvent: {}
+[2.718375] (-) TimerEvent: {}
+[2.818838] (-) TimerEvent: {}
+[2.919429] (-) TimerEvent: {}
+[3.020014] (-) TimerEvent: {}
+[3.121079] (-) TimerEvent: {}
+[3.222126] (-) TimerEvent: {}
+[3.322884] (-) TimerEvent: {}
+[3.423399] (-) TimerEvent: {}
+[3.524287] (-) TimerEvent: {}
+[3.624729] (-) TimerEvent: {}
+[3.725258] (-) TimerEvent: {}
+[3.825766] (-) TimerEvent: {}
+[3.857420] (example_topic_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/topic_subscriber_01.dir/build.make:76\xef\xbc\x9aCMakeFiles/topic_subscriber_01.dir/src/topic_subscriber_01.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.857842] (example_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/topic_subscriber_01.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.858266] (example_topic_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.861027] (example_topic_rclcpp) CommandEnded: {'returncode': 2}
+[3.871520] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 2}
+[3.882674] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:1[m[K:
+[01m[K/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_callback()[m[K’:
+[01m[K/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:29:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::__cxx11::basic_string<char>[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kc[m[K’
+   29 |                                                 ,message.data.[01;31m[Kc[m[K.str());
+      |                                                               [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76：CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/topic_publisher_01.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

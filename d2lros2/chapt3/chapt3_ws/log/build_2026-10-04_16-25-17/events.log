@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.000617] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.007922] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.008660] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[0.009214] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', '--', '-j8', '-l8'], 'cwd': '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'motong'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/motong'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/motong/miniconda3'), ('COLCON_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/motong/miniconda3/condabin:/home/motong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/motong-virtual-machine:@/tmp/.ICE-unix/1755,unix/motong-virtual-machine:/tmp/.ICE-unix/1755'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3cf8cf15_ac6e_4609_add6_f96a1d360e2e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CYCLONEDDS_HOME', '/home/motong/unitree_ws/cyclonedds/install'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/motong/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/motong/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/motong/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/motong/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.060423] (example_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_subscriber_01\x1b[0m\n'}
+[0.075191] (example_topic_rclcpp) StdoutLine: {'line': b'[ 50%] Built target topic_publisher_01\n'}
+[0.080779] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscriber_01.dir/src/topic_subscriber_01.cpp.o\x1b[0m\n'}
+[0.098616] (-) TimerEvent: {}
+[0.199498] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.401414] (-) TimerEvent: {}
+[0.501852] (-) TimerEvent: {}
+[0.602803] (-) TimerEvent: {}
+[0.703348] (-) TimerEvent: {}
+[0.804185] (-) TimerEvent: {}
+[0.904685] (-) TimerEvent: {}
+[1.005513] (-) TimerEvent: {}
+[1.106433] (-) TimerEvent: {}
+[1.206865] (-) TimerEvent: {}
+[1.307707] (-) TimerEvent: {}
+[1.408722] (-) TimerEvent: {}
+[1.509547] (-) TimerEvent: {}
+[1.610244] (-) TimerEvent: {}
+[1.711152] (-) TimerEvent: {}
+[1.812002] (-) TimerEvent: {}
+[1.912721] (-) TimerEvent: {}
+[2.013491] (-) TimerEvent: {}
+[2.114345] (-) TimerEvent: {}
+[2.215196] (-) TimerEvent: {}
+[2.315769] (-) TimerEvent: {}
+[2.416317] (-) TimerEvent: {}
+[2.517108] (-) TimerEvent: {}
+[2.617645] (-) TimerEvent: {}
+[2.718652] (-) TimerEvent: {}
+[2.819304] (-) TimerEvent: {}
+[2.919695] (-) TimerEvent: {}
+[3.020423] (-) TimerEvent: {}
+[3.120845] (-) TimerEvent: {}
+[3.221362] (-) TimerEvent: {}
+[3.321802] (-) TimerEvent: {}
+[3.422859] (-) TimerEvent: {}
+[3.524266] (-) TimerEvent: {}
+[3.625327] (-) TimerEvent: {}
+[3.726344] (-) TimerEvent: {}
+[3.827270] (-) TimerEvent: {}
+[3.928251] (-) TimerEvent: {}
+[4.028933] (-) TimerEvent: {}
+[4.129897] (-) TimerEvent: {}
+[4.230549] (-) TimerEvent: {}
+[4.331412] (-) TimerEvent: {}
+[4.432066] (-) TimerEvent: {}
+[4.532676] (-) TimerEvent: {}
+[4.633154] (-) TimerEvent: {}
+[4.733844] (-) TimerEvent: {}
+[4.834505] (-) TimerEvent: {}
+[4.935007] (-) TimerEvent: {}
+[5.035529] (-) TimerEvent: {}
+[5.136080] (-) TimerEvent: {}
+[5.236629] (-) TimerEvent: {}
+[5.337326] (-) TimerEvent: {}
+[5.438252] (-) TimerEvent: {}
+[5.538919] (-) TimerEvent: {}
+[5.639687] (-) TimerEvent: {}
+[5.740248] (-) TimerEvent: {}
+[5.841174] (-) TimerEvent: {}
+[5.941862] (-) TimerEvent: {}
+[6.042364] (-) TimerEvent: {}
+[6.143341] (-) TimerEvent: {}
+[6.244265] (-) TimerEvent: {}
+[6.344980] (-) TimerEvent: {}
+[6.436645] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_subscriber_01\x1b[0m\n'}
+[6.445506] (-) TimerEvent: {}
+[6.546394] (-) TimerEvent: {}
+[6.647054] (-) TimerEvent: {}
+[6.726300] (example_topic_rclcpp) StdoutLine: {'line': b'[100%] Built target topic_subscriber_01\n'}
+[6.738354] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[6.739874] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'install'}
+[6.747250] (-) TimerEvent: {}
+[6.749573] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp'], 'cwd': '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'motong'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/motong'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/motong/miniconda3'), ('COLCON_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/motong/miniconda3/condabin:/home/motong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/motong-virtual-machine:@/tmp/.ICE-unix/1755,unix/motong-virtual-machine:/tmp/.ICE-unix/1755'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3cf8cf15_ac6e_4609_add6_f96a1d360e2e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CYCLONEDDS_HOME', '/home/motong/unitree_ws/cyclonedds/install'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/motong/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/motong/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/motong/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/motong/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/humble')]), 'shell': False}
+[6.757437] (example_topic_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.758058] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01\n'}
+[6.758862] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01\n'}
+[6.764725] (example_topic_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscriber_01" to ""\n'}
+[6.764892] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp\n'}
+[6.764995] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp\n'}
+[6.765108] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh\n'}
+[6.765202] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv\n'}
+[6.765518] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh\n'}
+[6.765681] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv\n'}
+[6.765752] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash\n'}
+[6.765860] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh\n'}
+[6.765921] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh\n'}
+[6.766018] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv\n'}
+[6.766060] (example_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv\n'}
+[6.766145] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp\n'}
+[6.766280] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake\n'}
+[6.766320] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake\n'}
+[6.766356] (example_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/motong/ros_learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml\n'}
+[6.769571] (example_topic_rclcpp) CommandEnded: {'returncode': 0}
+[6.786593] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 0}
+[6.787428] (-) EventReactorShutdown: {}
