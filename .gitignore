@@ -53,3 +53,13 @@ dist/
 .coverage
 venv/
 .venv/
+
+# ========== Gradle 构建工具（下载的发行版） ==========
+gradle-*/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ========== vcs 拉取的第三方源码（由 *.repos 清单重新拉取） ==========
+fastdds_ws/src/fastcdr/
+fastdds_ws/src/fastdds/
+fastdds_ws/src/fastddsgen/
+fastdds_ws/src/foonathan_memory_vendor/
